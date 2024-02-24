@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Code Compiler</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/boxicons/2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="header">
+    <h1 class="head">Programmers' Den</h1>
+    <i class='bx bx-code-block' id="head-icon"></i>
+  </div>
+  <div class="container">
+    <div class="left-section">
+      <div class="section-heading">
+        <h2 class="head">Code</h2>
+        <button id="runButton">Run</button>
+      </div>
+      <div class="language-icons">
+        <i class='bx bxl-c-plus-plus' data-lang="cpp"></i>
+        <i class='bx bxl-java' data-lang="java"></i>
+        <i class='bx bxl-python' data-lang="python3"></i>
+      </div>
+      <textarea id="codeEditor" spellcheck="false" placeholder="Write your code here"></textarea>
+    </div>
+    <div class="right-section">
+      <div class="section-heading">
+        <h2 class="head">Output</h2>
+        <i class="bx bx-terminal" style="color:darkblue;font-size:19px;"></i> 
+      </div>
+      <div id="outputSection" class="output-section">
+        <!-- Output will be displayed here -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+ 
